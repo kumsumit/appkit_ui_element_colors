@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppKit
 
 /// An enum containing all components of the `NSColor` class whose type is a `CGFloat`.
 enum NSColorComponent {

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppKit
 
 class NSColorNameToColorConverter {
   static public func convert(_ name: String) -> NSColor {

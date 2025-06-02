@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppKit
 
 class NSAppearanceNameToAppearanceConverter {
   public static func convert(_ name: String) -> NSAppearance? {

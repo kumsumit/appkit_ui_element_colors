@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppKit
 
 /// A class that converts `NSColor` objects into dictionaries containing their individual components.
 class NSColorToDictionaryConverter {
