@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppKit
 
 /// A class that converts a `CGColorSpace` name into an `NSColorSpace` instance.
 class NSColorSpaceNameToColorSpaceConverter {

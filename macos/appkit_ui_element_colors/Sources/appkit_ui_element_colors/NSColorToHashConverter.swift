@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppKit
 
 /// A class that converts `NSColor`s into Dart’s hash syntax.
 class NSColorToHashConverter {

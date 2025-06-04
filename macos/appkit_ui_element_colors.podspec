@@ -17,7 +17,8 @@ selections and other content in your app.
 
   s.source           = { :git => 'https://github.com/Adrian-Samoticha/appkit_ui_element_colors.git',
 	                       :tag => s.version.to_s }
-  s.source_files     = 'Classes/**/*'
+  s.source_files = 'appkit_ui_element_colors/Sources/appkit_ui_element_colors/**/*.swift'
+  s.resource_bundles = {'appkit_ui_element_colors_privacy' => ['appkit_ui_element_colors/Sources/appkit_ui_element_colors/Resources/PrivacyInfo.xcprivacy']}
   s.dependency 'FlutterMacOS'
 
   s.platform = :osx, '10.14'
