@@ -4,7 +4,7 @@ version: 1.0.1
 repository: https://github.com/Adrian-Samoticha/appkit_ui_element_colors/
 
 environment:
-  sdk: '>=2.19.3 <3.0.0'
+  sdk: '>=2.19.3 <4.0.0'
   flutter: ">=2.5.0"
 
 dependencies:
