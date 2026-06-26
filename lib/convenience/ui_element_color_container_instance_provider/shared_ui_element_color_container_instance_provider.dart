@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:ui';
 
 import 'package:appkit_ui_element_colors/convenience/ui_element_color_container.dart';
 import 'package:appkit_ui_element_colors/macos/ns_appearance_name.dart';

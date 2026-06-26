@@ -117,14 +117,14 @@ class _ColorHashText extends StatelessWidget {
   Widget build(BuildContext context) {
     final text = colorContainer
         .getColorFromUiElementColor(uiElementColor)
-        .value
+        .toARGB32()
         .toRadixString(16)
         .padLeft(8, '0');
 
     return Text(
       '#$text',
       style: TextStyle(
-        color: colorContainer.textColor.withOpacity(0.5),
+        color: colorContainer.textColor.withValues(alpha: 0.5),
       ),
     );
   }

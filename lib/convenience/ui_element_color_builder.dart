@@ -97,8 +97,11 @@ class _UiElementColorBuilderState extends State<UiElementColorBuilder> {
 
     _systemColorObserverStreamSubscription = AppkitUiElementColors
         .systemColorObserver.stream
-        .listen((_) => widget.uiElementColorContainerInstanceProvider
-            .maybeUpdate(context));
+        .listen((_) {
+      if (mounted) {
+        widget.uiElementColorContainerInstanceProvider.maybeUpdate(context);
+      }
+    });
   }
 
   @override
