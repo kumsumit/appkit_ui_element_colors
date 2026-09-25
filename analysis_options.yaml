@@ -25,8 +25,9 @@ linter:
     - use_super_parameters
 
 analyzer:
-  plugins:
-    - dart_code_metrics
+  exclude:
+    - build/**
+    - macos/**
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

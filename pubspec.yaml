@@ -5,11 +5,11 @@ publish_to: none
 repository: https://github.com/Adrian-Samoticha/appkit_ui_element_colors/
 
 environment:
-  sdk: '>=3.12.0 <4.0.0'
-  flutter: ">=3.44.0"
+  sdk: '>=3.13.0 <4.0.0'
+  flutter: ">=3.47.0"
 
 dependencies:
-  equatable: ^2.0.8
+  equatable: ^3.0.0
   flutter:
     sdk: flutter
   plugin_platform_interface:
